@@ -12,6 +12,7 @@
 		13B883161FD8C74300D07273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B883141FD8C74300D07273 /* Main.storyboard */; };
 		13B883181FD8C74300D07273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B883171FD8C74300D07273 /* Assets.xcassets */; };
 		13B8831B1FD8C74300D07273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B883191FD8C74300D07273 /* LaunchScreen.storyboard */; };
+		13B883231FD8C92200D07273 /* MinimalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B883221FD8C92200D07273 /* MinimalListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13B883171FD8C74300D07273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13B8831A1FD8C74300D07273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13B8831C1FD8C74300D07273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B883221FD8C92200D07273 /* MinimalListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				13B883101FD8C74300D07273 /* AppDelegate.swift */,
 				13B883121FD8C74300D07273 /* ViewController.swift */,
 				13B883141FD8C74300D07273 /* Main.storyboard */,
+				13B883221FD8C92200D07273 /* MinimalListTableViewController.swift */,
 				13B883171FD8C74300D07273 /* Assets.xcassets */,
 				13B883191FD8C74300D07273 /* LaunchScreen.storyboard */,
 				13B8831C1FD8C74300D07273 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				13B883131FD8C74300D07273 /* ViewController.swift in Sources */,
 				13B883111FD8C74300D07273 /* AppDelegate.swift in Sources */,
+				13B883231FD8C92200D07273 /* MinimalListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
