@@ -9,6 +9,15 @@
 import UIKit
 
 class MinimalListTableViewController: UITableViewController {
+    
+    @IBOutlet weak var firstLabel: UILabel!
+    @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet weak var thirdLabel: UILabel!
+    @IBOutlet weak var fourthLabel: UILabel!
+    @IBOutlet weak var fifthLabel: UILabel!
+    
+
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +33,22 @@ class MinimalListTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func firstStepper(_ sender: UIStepper) {
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     // MARK: - Table view data source
 
