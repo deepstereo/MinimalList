@@ -17,7 +17,7 @@
 
 import UIKit
 
-class MinimalListTableViewController: UITableViewController {
+class MinimalListTableViewController: UITableViewController, UITextFieldDelegate {
     
     // Outlets for text labels
     
@@ -85,6 +85,22 @@ class MinimalListTableViewController: UITableViewController {
             firstLabel.text=""
         }
         
+    }
+    
+    // dismissing the keyboard
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        listTitle.resignFirstResponder()
+        firstTextField.resignFirstResponder()
+        secondTextField.resignFirstResponder()
+        thirdLabel.resignFirstResponder()
+        fourthTextField.resignFirstResponder()
+        fifthTextField.resignFirstResponder()
+        return true
     }
     
     
