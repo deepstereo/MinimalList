@@ -4,6 +4,7 @@
 //  MinimalList
 //
 //  A minimal shopping list designed to keep you within budget
+//  by limiting to only 5 items!
 //
 //  Created by Sergey Kozak on 06/12/2017.
 //  Team members:
@@ -40,7 +41,6 @@ class MinimalListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
     }
 
  
@@ -49,7 +49,7 @@ class MinimalListTableViewController: UITableViewController {
     
     @IBAction func clearButton(_ sender: UIButton) {
         
-        // title
+        // list title
         listTitle.text = ""
         
         // shopping items
@@ -59,7 +59,7 @@ class MinimalListTableViewController: UITableViewController {
         fourthTextField.text = ""
         fifthTextField.text = ""
         
-        // quantities
+        // shopping list quantities
         firstLabel.text = "0"
         secondLabel.text = "0"
         thirdLabel.text = "0"
@@ -67,6 +67,7 @@ class MinimalListTableViewController: UITableViewController {
         fifthLabel.text = "0"
     }
     
+    // A stepper action to increment items in the shopping list
     
     @IBAction func firstStepper(_ sender: UIStepper) {
         switch sender.tag {
