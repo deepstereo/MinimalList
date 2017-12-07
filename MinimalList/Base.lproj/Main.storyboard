@@ -28,20 +28,13 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Shop well" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UTd-jq-2Eo">
-                                    <rect key="frame" x="22" y="52" width="330" height="80"/>
+                                    <rect key="frame" x="22" y="29" width="330" height="103"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" red="1" green="0.12941176469999999" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="34"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name your list below:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahv-64-wPw">
-                                    <rect key="frame" x="22" y="23" width="139" height="21"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
                             </subviews>
                             <color key="backgroundColor" red="1" green="0.12941176470588234" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <viewLayoutGuide key="safeArea" id="sHL-lB-Hw1"/>
@@ -56,6 +49,9 @@
                                     <state key="normal" title="Clear">
                                         <color key="titleColor" red="1" green="0.12941176469999999" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="clearButton:" destination="yTD-KW-u9H" eventType="touchUpInside" id="Ynb-kd-m4h"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1q-hz-arj">
                                     <rect key="frame" x="104" y="21" width="167" height="46"/>
@@ -267,6 +263,7 @@
                         <outlet property="fifthLabel" destination="GN6-YE-Q8v" id="9om-7o-4EV"/>
                         <outlet property="firstLabel" destination="1SM-AD-D7X" id="XfW-UX-K1s"/>
                         <outlet property="fourthLabel" destination="QPh-18-Qsi" id="EFf-SG-mNA"/>
+                        <outlet property="listTitle" destination="UTd-jq-2Eo" id="0do-An-95U"/>
                         <outlet property="secondLabel" destination="a9D-WL-eZx" id="4LI-jE-Vx1"/>
                         <outlet property="thirdLabel" destination="Env-X7-sIm" id="LCq-2l-K5d"/>
                     </connections>

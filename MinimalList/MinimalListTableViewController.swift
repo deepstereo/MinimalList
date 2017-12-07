@@ -16,9 +16,12 @@ class MinimalListTableViewController: UITableViewController {
     @IBOutlet weak var fourthLabel: UILabel!
     @IBOutlet weak var fifthLabel: UILabel!
     
-
+    @IBOutlet weak var listTitle: UITextField!
+    
     
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +41,11 @@ class MinimalListTableViewController: UITableViewController {
         
     }
     
+  
+    @IBAction func clearButton(_ sender: UIButton) {
+        
+        
+    }
     
     
     
@@ -52,15 +60,15 @@ class MinimalListTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+//    override func numberOfSections(in tableView: UITableView) -> Int {
+//        // #warning Incomplete implementation, return the number of sections
+//        return 0
+//    }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return 0
+//    }
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
